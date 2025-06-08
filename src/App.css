@@ -1,0 +1,217 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.navbar_wrapper a {
+  color: whitesmoke;
+  padding-left: 20px;
+
+}
+.tbl{
+  padding: 20px;
+}
+.form {
+  padding: 20px;
+  align-items: center;
+  max-width: 50%;
+}
+
+input {
+  padding: 10px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* styles.css */
+
+
+.headerbar{
+  text-decoration: solid;
+  padding: 0px;
+  margin: 0px;
+}
+
+.user-detail{
+  font-size: small;
+  font-style: italic;
+  color:#555;
+}
+
+.highlighted-text {
+  font-size: 1.3em; /* Increase the font size */
+}
+
+.input-wrapper {
+  display: flex; /* Use flexbox to make children inline */
+  align-items: center; /* Center vertically within the flex container */
+}
+
+.home-container {
+  font-family: 'Arial', sans-serif;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.question-container {
+  margin-top: 20px;
+}
+
+.answer-item {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.reply-item {
+  margin-top: 5px;
+  font-style: italic;
+  color: #555;
+}
+
+.reply-input {
+  width: 50%;
+  margin-top: 5px;
+}
+
+.answer-input {
+  width: 80%;
+  margin-top: 10px;
+}
+
+.update-question-input {
+  width: 80%;
+  margin-top: 10px;
+}
+
+.delete-btn {
+  color: #fff;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  background-color: inherit;
+}
+.upload-btn{
+  color: #fff;
+  border: none;
+  padding: 0;
+  margin-left: 5px;
+  cursor: pointer;
+  background-color: inherit;
+}
+.authbtn{
+  color: #fff;
+  border: none;
+  box-shadow: 0 4px 8px ;
+  border-radius: 20%;
+  padding: 0;
+  margin: 0%;
+  cursor: pointer;
+  background-color: inherit;
+}
+
+.authimg{
+  width: 60px;
+}
+
+
+.byebtn{
+  color: #fff;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 20%;
+  padding: 0;
+  margin: 0%;
+  cursor: pointer;
+  background-color: inherit;
+}
+
+.upload-btn-img{
+  border: none;
+  width: 30px;  
+  background-color: inherit;
+  padding: 4%;
+  margin: 0%;
+  margin-top: 5px;
+}
+
+.uploadbtn{
+  border: none;
+  width: 30px;  
+  background-color: inherit;
+  padding: 0%;
+  margin: 0%;
+  margin-bottom: 9px;
+}
+
+.new-question-input {
+  width: 80%;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  margin-right: 8px;
+}
+.add-question-btn {
+  background-color: #fff;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+
+
+.delimg{
+  border: none;
+  width: 20px;  
+  border-radius: 9px;
+}
+
+.user-detail-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  align-items: center;
+  align-content: center;
+}
+
+.quorumify{
+  margin: 0%;
+}
+
